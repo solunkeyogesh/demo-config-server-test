@@ -1,0 +1,5 @@
+server:
+  port: 0
+
+app:
+  message: "Order Service - PROD"
