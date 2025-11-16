@@ -4,6 +4,8 @@ spring:
     username: root
     password: root
 
+  config:
+    import: "configserver:http://localhost:8888" 
 app:
   message: "Order Service running in DEV environment"
 
